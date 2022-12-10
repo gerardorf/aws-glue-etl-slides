@@ -10,9 +10,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Make slides folder
-        run: mkdir slides
-
       - name: Marp Build
         uses: docker://marpteam/marp-cli:v2.2.2
         with:
