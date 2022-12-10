@@ -19,8 +19,3 @@ jobs:
           args: slide-deck.md -o slides/index.html
         env:
           MARP_USER: root:root
-
-      - name: Deploy production
-        with:
-          branch: gh-pages
-          folder: ./build/
