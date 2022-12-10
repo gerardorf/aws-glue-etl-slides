@@ -16,3 +16,15 @@ jobs:
           args: slide-deck.md -o slides/index.html
         env:
           MARP_USER: root:root
+      
+
+      - name: Setup git Config
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "<>"
+
+      - name: Push Slides
+        run: |
+          git add slides
+          git commit -m "Build Slides"
+          git push origin master
