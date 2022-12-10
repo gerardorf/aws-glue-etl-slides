@@ -24,7 +24,7 @@ Split pages by horizontal ruler (`---`). It's very simple! :satisfied:
 ```markdown
 # Slide 1
 
-foobar
+Modify slide 1
 
 ---
 
