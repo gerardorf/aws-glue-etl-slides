@@ -17,6 +17,17 @@ https://marp.app/
 
 ---
 
+# Slide with speaker notes
+
+Create a slide with speaker notes
+
+<!--
+First speaker note
+Second speaker note much longer than the first one, that actually was a very short one
+-->
+
+---
+
 # How to write slides
 
 Split pages by horizontal ruler (`---`). It's very simple! :satisfied:
@@ -32,14 +43,3 @@ Modify slide 1
 
 foobar
 ```
-
----
-
-# Slide with speker notes
-
-Create a slide with speaker notes
-
-<!--
-First speaker note
-Second speaker note much longer than the first one, that actually was a very short one
--->
