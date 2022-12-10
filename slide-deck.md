@@ -32,3 +32,14 @@ Modify slide 1
 
 foobar
 ```
+
+---
+
+# Slide with speker notes
+
+Create a slide with speaker notes
+
+<!--
+First speaker note
+Second speaker note much longer than the first one, that actually was a very short one
+-->
