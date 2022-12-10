@@ -27,4 +27,4 @@ jobs:
         run: |
           git add slides
           git commit -m "Build Slides"
-          git push origin master
+          git push origin main
